@@ -1,0 +1,11 @@
+    1. Il derererence serve per accedere alla cella di memoria in cui c'é quel dato (*p).
+
+    2. Un indirizzo è una sezione di memoria all'interno della quale si possono trovare oggetti.
+       Sono manipolati attraverso i puntatori.
+
+    3. Il puntatore ha l'informazione del dato a cui punta come il suo tipo di oggetto e che indirizzo occupa,
+       l'informazione che non può avere un puntatore è la dimensione del dato puntato.
+
+    4. Un puntatore può puntare agli indirizzi.
+
+    5. Si usa un puntatore al posto della reference se non si vuole cambiare valore dell'oggetto puntato.

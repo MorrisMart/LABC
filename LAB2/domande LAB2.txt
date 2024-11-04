@@ -1,0 +1,26 @@
+A COPPIE, RISPONDETE ALLE SEGUENTI DOMANDE (REVIEW, CAP. 9, P. 338 SGG.):
+
+1. What are the two parts of a class?
+	Le 2 componenti di una classe sono l'interfaccia (pubblica) e l'implementazione (privata).
+
+2. What is the difference between the interface and the implementation in a class?
+	L'interfaccia e' pubblica e visibile ad altri programmatori;
+	l'implementazione e' privata e visibile solo al programmatore.
+
+3. Why is a constructor used for the Date type instead of an init_day() function?
+
+4. What is an invariant? Give examples.
+	L'invariante puo' essere una o un insieme di "regole" da rispettare all'interno 
+	del programma per definire valori validi dello stato
+	affinche' il "design" di quest'ultimo risulti corretto ed efficiente.
+	e.g.: nella classe 'Date' alcuni invarianti possono essere il controllo dell'anno bisestile,
+	il conteggio dei mesi con 30 e con 31 giorni e la time zone.
+
+5. When should functions be put in the class definition, and when should they be defined outside the class? Why?
+	La scelta di definire una funzione all'interno o all'esterno della classe dipende
+	dalle volonta' del programmatore, ma generalmente una funzione viene lasciata definita
+	all'interno di una classe se si tratta di una funzione semplice dal codice breve 
+	(e che quindi non "disturba" la scorrevolezza e la lettura del codice).
+	Diversamente, se la funzione richiede un maggiore spazio di definizione e risulta piu' lunga 
+	e complessa, e' corretto definirla fuori dalla classe al fine di mantenere un determinato design
+	del programma e soprattutto del codice
